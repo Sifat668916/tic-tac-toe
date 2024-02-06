@@ -73,7 +73,6 @@ const resetGame = () => {
      enablebtn();
      winText.classList.add("hide");
 }
-
 resetbtn.forEach((reset) => {
     reset.addEventListener("click" ,resetGame)
 })
