@@ -75,5 +75,5 @@ const resetGame = () => {
 }
 
 resetbtn.forEach((reset) => {
-    reset.addEventListener("click" ,resetgame)
+    reset.addEventListener("click" ,resetGame)
 })
